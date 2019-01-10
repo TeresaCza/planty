@@ -1,0 +1,334 @@
+/* General styles */
+body
+{
+    font-family: 'Muli', sans-serif;
+}
+
+h1, .name, .quote
+{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 1.1px;
+}
+
+h2
+{
+    position: relative;
+    left: 6%;
+    bottom: 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+/* Navigation styles */
+
+nav ul
+{
+    text-align: center;
+    position: fixed;
+    left: 20%;
+    z-index: 3;
+}
+
+nav ul li
+{
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 50px;  
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover
+{
+    background-color: #acceb7;
+    color: #fff;
+}
+
+/* Main styles */
+
+.col-md-5
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.leaves
+{
+    position: relative;
+    top: 15%;
+    left: 15%
+}
+
+.leaves::after
+{
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 350px;
+    height: 478px;
+    box-sizing: content-box;
+    border: 3px solid #acceb7;
+}
+
+.mobile
+{
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    z-index: 2;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.logo
+{
+    height: 140px;
+    margin-top: 150px;
+}
+
+.subtitle
+{
+    font-size: 14px;
+}
+
+.description
+{
+    width: 370px;
+    line-height: 1.6;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.baner
+{    
+    background-image: url("img/bg.jpg");
+    background-size: 100%;
+    margin-top: 75px;
+    width: 100%;
+    height: 264px;
+    margin-bottom: -100px
+    
+}
+
+.quote
+{
+    position: relative;
+    bottom: 15%;
+    right: 5%;
+    
+    
+    z-index: 1;
+    text-align: right;
+    font-size: 32px;    ;
+    color: #fff;
+    margin-right: 35px;
+}
+
+#experts
+{
+    position: relative;
+    left: 35%;
+}
+
+.bio
+{
+    border: 3px solid #acceb7;
+    padding: 30px;
+    padding-left: 15%;
+    width: 350px;
+    position: relative;
+}
+
+.lidia
+{
+    left: 39%
+}
+
+.albert
+{
+    top: 200px
+}
+
+.name
+{
+    font-size: 26px;
+    margin: 0px;
+}
+
+.florist
+{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.words
+{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.bio-image
+{    
+    border: 3px solid #acceb7;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    right: 87%;
+    top: 20%;
+    width: 100px;
+}
+
+/* Contact styles */
+ 
+#contact h1
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#contact
+{
+    position: relative;
+    left: 35%;
+    top: 7%;
+}
+
+label
+{
+    font-size: 12px;
+    color: #404040;    
+}
+
+textarea, [type="email"], [type="text"]
+{
+    border: 2px solid #000;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 325px;
+}
+
+[type="email"], [type="text"]
+{
+    height: 30px;
+}
+
+textarea
+{
+    margin-bottom: 40px;    
+}
+
+#contact [value="Send"]
+{
+   margin-left: 0;
+}
+
+.tree
+{    
+    position: relative;
+    top: 35%;
+    left: 5%;
+    
+}
+
+.tree img
+{
+    height: 400px;
+}
+
+.tree::after
+{
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    left: -5%;
+    width: 285px;
+    height: 100%;
+    box-sizing: content-box;
+    border: 3px solid #acceb7;
+}
+
+/* Footer styles */
+
+.footer
+{
+    margin-top: 150px;
+    width: 100%;
+    background-color: #acceb7;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul
+{
+    text-align: right;
+    
+}
+
+.footer ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+.footer p
+{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Component styles */
+
+.btn
+{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.2;
+    background-color: #acceb7;
+    padding: 15px 60px; 
+    width: 325px;
+    margin: 15px;
+    cursor: pointer;    
+}
+
+/* Media styles */
+
+@media (max-width: 768px)
+{
+    .albert
+    {
+        top: 20px;
+    }
+}
+
