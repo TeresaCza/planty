@@ -27,6 +27,21 @@ h2
     text-transform: uppercase;
 }
 
+.btn
+{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.2;
+    background-color: #acceb7;
+    padding: 15px 60px; 
+    width: 325px;
+    margin: 15px;
+    cursor: pointer;    
+}
+
 img
 {
     max-width: 100%;
@@ -71,7 +86,8 @@ nav ul li a:hover
 {
     position: relative;
     top: 15%;
-    left: 15%
+    left: 15%;
+   // margin-right: 75px;
 }
 
 .leaves::after
@@ -100,11 +116,13 @@ nav ul li a:hover
 {
     height: 140px;
     margin-top: 150px;
+    margin-left: 50px;
 }
 
 .subtitle
 {
     font-size: 14px;
+    margin-left: 50px;
 }
 
 .description
@@ -113,9 +131,13 @@ nav ul li a:hover
     line-height: 1.6;
     text-align: left;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: -20px;
     margin-bottom: 20px;
+}
+
+.first-btn {
+	margin-left: 50px;
 }
 
 .baner
@@ -300,20 +322,7 @@ textarea
 
 /* Component styles */
 
-.btn
-{
-    box-sizing: border-box;
-    border: none;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1.2;
-    background-color: #acceb7;
-    padding: 15px 60px; 
-    width: 325px;
-    margin: 15px;
-    cursor: pointer;    
-}
+
 
 /* Media styles */
 
